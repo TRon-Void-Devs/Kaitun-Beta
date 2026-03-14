@@ -1,3 +1,208 @@
--- This file was protected using Luraph Obfuscator v14.6 [https://lura.ph/]
+-- ============================================================
+--   ROBLOX FIX LAG SCRIPT
+--   Remove Fog | Remove Texturas | Boost FPS | Reduz Ping
+--   Compatível com Executores: Synapse X, KRNL, Fluxus, etc.
+-- ============================================================
 
-return(function()local T,O do local X=212+-85 local b=-289-(-544)local l=function(X)return X end local J={}for X=-211-(-211),99-(-156),952+-3804/4 do J[X]={}for b=-190-(-190),1275/5,4/4 do J[X][b]=198-198 end end local Y=false if not Y then for X=(397-397)*39,56/8,8/8 do J[0*28][-528+528]=J[0*(-58-(-154))][-940-(-940)]+0*86 end Y=true end local v={11.0*(1.0*3);256/4;-445+480;59-23}local E={-28-(-65),47.0*2;19.0*2,-570-(-612)}local V={(236-(-477+(-202-(66-278))))+-663;287/7,19.0*5;-511+554}local w={280+-235,-693-(-6786/(3.0*3)),-421+((-343+946)+-91),922+-829}local x=function()local X=0*13 for b=-984-(-985),-360+364,(35/5)/7 do X=(((X+#v)+#E)+#V)+#w end return X>0*78 end if not x()then end local s={}local n=629+-628 for X,b in ipairs({v;E;V,w})do for X=4/4,#b,-766-(-767)do s[n]=string.char(b[X])n=n+9/9 end end s=table.concat(s)local e=34.0*2 local q=1023-954 local M=e+q local function Z(X,b)if J[X]and(J[X][b]and J[X][b]~=-272+272)then return J[X][b]end local l=-365+365 for J=(-555+-426)-(-981),(21.0*2)/6,9/9 do local Y=X/(10/5)+b/(888-886)if Y~=math.floor(Y)then l=l+(424+-422)^J end X=math.floor(X/(-978+980))b=math.floor(b/(-556+558))end if X<128.0*2 and b<802-((834+190)-478)then J[X]=J[X]or{}J[X][b]=l end return l end local c={}for X=6/6,#s,8/8 do c[string.sub(s,X,X)]=X-2/2 end local function U(X)return c[X]or 222+-222 end local o="[[[%[(]=[_[@|=![&]-_)-(]+[-_)-^[&]_]=_(|]+[([*[=[&[%|[_[&[*[_[(]=|]-[*])[([_[#|=[]![_[%[]|]++-]]+([$+)==|+$_@_-[=_$_!+$|+$|[*]@=][-[[|[!]$]$++=![]|-]]-[_[#_)=-|[[[-]=[![*[][&|=&=&[![*[=[-]@|=&=&[*[-][[![*[=[-]@|=&=&[%[-]=[(]=[([+[^[-|=&=&[[[_|=&=&[%[&[=[-|[#|=&=&[_[([^[^|=&=&[^[-[*|=&=&])[([!]+]_|=&=&[!])[([!]+]_|=&=&[=[-[+]-[[|=&=&]=[&]_]=]+[![*[[|=&=&[_[&[*[_[(]=|=&=&]-[*[%|=&=&[([=[=|=&=&]_]-[+|=&=&[%]-[^|=&=&[=[!]]|=&=&[%[&[=|=&=&])[&][|=&=&[-](|=&=&[^]=|=&=&[^[-|[]]-[*[_]=[![&[*|==[@[!]__)[%[-]=[(]=[([+[^[-_)[!]__)[^[&[_[#[-[=_*|[&]_|[![&|[][![^[-|[=[-[+]-[[|[[[-]=[@[&[&[#|[_[^[&[_[#|]=[![%[-|[![*]_[-]+]=|=_|][[@[(]=|-_|[[[-]=]-])]][([^]-[-|]+[-]=]-]+[*_)+(_#+(|]+[([*[=[&[%=_]=]+[![*[[|[+]!]=[-|[^[=[-]@])|[^||[][^[&[&]+|[_[@[(]+|((()()((()()(=()()()()()()(&()()())@()()()]=()()())^()()&&@%-&==%*((()()%#*@[^+%$^_%[^^[%*(+()()%#@*^)&^@))#*%@_%*(_()()_[&*)(-*&)]+)^==!)((()^-%*(=()()[%=@@$_*!)((()[^%+*(&!!%!)((()%$!-$[%[-@%)]+=_)*_[+=%*&$&)!(-=@_!-@*+#=]=*!)%__)$^%_$[]=_[+_&-!=&)!(+*)=!-[$&*$(+%_^&$==[=-)^%)&()($()()()[^[&[([=]_]=]+[![*[[()(=()()()[[[([%[-()=[()()()[@]=]=])]_+$_&_&]+[(][_*[[[!]=[@]-[+]-]_[-]+[_[&[*]=[-[*]=_*[_[&[%_&]([!][]([-]![(]_[=[(]$]@_&[[]-]!]_[=[&[*]=]_[#[![=++_&]+[-[]]__&[@[-[([=]__&[%[([![*_&]_[_]+[!])]=_*[^]-[(()([()()()-@]=]=])-[[-]=|"local y={}local j=-640-(-640)local function A(X)j=j+(-937+938)if y[X]then return y[X]end local b={}local l=X+(956-955)while l<=#o do local X=string.sub(o,l,l)if X=="|"then break end local J=U(X)local Y=U(string.sub(o,l+(-70+71),l+(335+-331)/((462+-1384)-(-926))))local v=J*(8.0*2)+Y local E=Z(v,M)b[#b+(999-998)]=string.char(E)l=l+(515+-513)end local J=table.concat(b)y[X]=J return J end local z=true T=setmetatable({},{__index=function(X,b)if not z then end return A(b)end;__metatable="locked",__newindex=function() end})function O(X)if type(X)~="number"then end return X end if j<0*84 then end end do local X=true local b=string[T[O(-12/2-(-6))]]local l=function()error(T[O(-204-(-217))])end local J=false local Y=pcall(function()J=true end)and J local v=math[T[O(41-1)]]local E=table[T[O(159/3)]]local V=table and table[T[O(-88+154)]]or unpack local w=v(21/7,325/5)local x=-98+98 local s=53+-53 local n={pcall(function()local X=(4368034-281.0*2)-T[O(3-(-76))]^(1862429-850)return T[O(810/9)]/X end)}local e=n[6/3]local q=tonumber((b(tostring(e),T[O(35.0*3)]))())for l=4/4,w,508+-507 do local J=math[T[O(20.0*2)]](4/4,(-944-(-871))-(25-198))local Y=v(166+-166,1275/5)local E=v(-633+634,J)local n=v(5/5,971+-969)==-927+(1557-629)local M=e:gsub(T[O(840/8)],T[O(-17-(-137))]..(tostring(v(419+-419,-375+(-663+11038)))..T[O(-5.0*5+145)]))local Z={pcall(function()if v(132+-131,-992+994)==143+(730-872)or l==w then local l=tonumber((b(tostring(({pcall(function()local X=(1822023-(-384-53.0*(189+-184)))-T[O(41.0*3)]^(10245-819)return T[O(-943+1077)]/X end)})[-587-(-589)]),T[O(420/4)]))())X=X and q==l end if n then error(M,28-28)end local x={}for X=6/6,J,-419+420 do x[X]=v(0*13,85.0*3)end x[E]=Y return V(x)end)}if n then X=X and(Z[659-658]==false and Z[308-306]==M)else X=X and Z[359-(986-628)]x=(x+Z[E+3/(-114+117)])%(-238-(-494))s=(s+Y)%(1211-955)end end X=X and x==s if X then else repeat return(function()while true do l1,l2=l2,l1 l()end end)()until true while true do l2=v(62-61,3.0*2)if l2>-877+879 then l2=tostring(l1)else l1=l2 end end return end end do local X=true local b=pcall(function(X,b,l,J)(getgenv())[T[O(49.0*3)]]=function(X,b,l,J) end end)local l=pcall(function(X,b,l,J)(getgenv())[T[O(-195-(-342))]]=function(X,b,l,J) end end)local J=pcall(function(X,b,l,J)(getgenv())[T[O(-309+4104/((324/6)/6))]]=function(X,b,l,J) end end)local Y={b;l;J}local v=Y[math[T[O(504-(888+(496-920)))]](-7120/(40/5)-(-891),#Y)]local E=error local V=pairs local w=setmetatable local x=getmetatable local s=type local e=load local q=loadstring local M=pcall local Z=math[T[O(20.0*2)]]local c=xpcall local U=debug local o=debug and debug[T[O(-11+171)]]or nil local y=package local j=coroutine local A=string local z=math local K=table local u=os local Q=io local S=file local f={}local L={}for X,b in V(_G)do L[X]=b end local function N(X)local b={[T[O(575-400)]]=X;[T[O(570/3)]]=function(X,b,l)if L[b]then v()else L[b]=l end end;[T[O(844/4)]]=false,[T[O(-149+383)]]=function()v()end,[T[O(182+61)]]=T[O(2048/8)];[T[O(1036/(32/8))]]=function()v()end;[T[O(136.0*2)]]=function()v()end;[T[O(-603-(-886))]]=function()v()end;[T[O(894/3)]]=function()v()end,[T[O(3150/10)]]=function()v()end;[T[O((8910/9)/3)]]=function()v()end,[T[O(2106/(1001-995))]]=function()v()end;[T[O(-930+1298)]]=function()v()end;[T[O(-65+444)]]=function()v()end,[T[O(195.0*2)]]=function()v()end;[T[O(1203/3)]]=function()v()end;[T[O(793-381)]]=function()v()end;[T[O(141.0*3)]]=function()v()end;[T[O(-874+1308)]]=function()v()end;[T[O(356-(-89))]]=function()v()end;[T[O(227.0*2)]]=function()v()end,[T[O(1222-759)]]=function()v()end}return w({},b)end function f.protectGlobals()for X,b in V(_G)do if s(b)==T[O(236.0*2)]then L[X]=b end end _G=N(L)w(_G,{[T[O(1055/5)]]=T[O(163.0*3)]})end function f.protectTable(X)return N(X)end function f.protectFunction(X)local b=function(...)return X(...)end return w({},{[T[O(1575/(-126+135))]]=function(X,l)if l==T[O(563-304)]then return b else v()end end;[T[O(8-(-182))]]=function(X,b,l)v()end,[T[O(-248.0*2+707)]]=false,[T[O(117.0*2)]]=function()v()end,[T[O(-630+873)]]=T[O(718-462)],[T[O(217+42)]]=function()v()end;[T[O(136.0*2)]]=function()v()end;[T[O(439+-156)]]=function()v()end;[T[O(149.0*2)]]=function()v()end,[T[O(105.0*3)]]=function()v()end})end if error~=E or pairs~=V or setmetatable~=w or getmetatable~=x or type~=s or load~=e or loadstring~=q or pcall~=M or xpcall~=c or debug~=U or package~=y or coroutine~=j or string~=A or math~=z or table~=K then v()end if pcall~=M or math[T[O(80/2)]]~=Z then v()end local d={T[O(20+520)],T[O(416-(-129))];T[O(-663/3+771)],T[O(402+157)]}for X,b in ipairs(d)do if _G[b]~=L[b]then v()end end local p,F=pcall(U[T[O(193+377)]])if p then if F then v()end end local t=string[T[O(62+-62)]]local i,h=pcall(main)for X,b in ipairs(d)do if getmetatable(_G[b])~=getmetatable(L[b])then v()end end if U and o then local X={V;u[T[O(558-(-27))]]or u[T[O(5364/(-4-(-13)))]];K[T[O(314-(-291))]]}for X,b in V(X)do if b then local X=o(b,T[O(80+538)])if X and X[T[O(305-(-316))]]~=T[O(-92+722)]then v()end end end local b=o(752+-751,T[O(-290-(-908))])if not b then v()end local l=o(V,T[O(1236/2)])local J=o(function() end,T[O((-589+492)-(-715))])if l[T[O(207.0*3)]]==J[T[O(1355-734)]]then v()end end do local X=typeof~=nil local b=loadstring or load local l=load local J=q or e if b~=nil or J~=nil then if b~=J then v()end end if l~=nil or e~=nil then if l~=e then v()end end if not X and(U and o)then if b~=nil then local X=o(b,T[O(-450+1068)])if X and X[T[O(-15-(-636))]]~=T[O(1606-976)]then v()end end if l~=nil then local X=o(l,T[O(690-648/9)])if X and X[T[O(2484/4)]]~=T[O(6300/10)]then v()end end end if U and U[T[O(372+261)]]then if b~=nil then local X,l=M(U[T[O(211.0*3)]],b,6/6)if X and l~=nil then v()end end if l~=nil then local X,b=M(U[T[O(269-(-364))]],l,2/2)if X and b~=nil then v()end end end local Y=b or l if Y~=nil then local X=T[O(1463-809)]local b,l=Y(X)if type(b)~=T[O(139+(-151+484))]then v()end local J,E=M(b)if not J or E~=627+-625 then v()end end if b~=nil and x(b)~=nil then v()end if l~=nil and x(l)~=nil then v()end if X then if iscclosure then if b~=nil and not iscclosure(b)then v()end if l~=nil and not iscclosure(l)then v()end end if checkclosure then if b~=nil and not checkclosure(b)then v()end if l~=nil and not checkclosure(l)then v()end end end end local I=false local C=M(function()I=true end)and I local G=math[T[O(1012-972)]]local g=table[T[O(159/3)]]local W=table and table[T[O(264/4)]]or unpack n=Z(1.0*3,390/6)if n<27/9 or n>-606-(-671)then local X=G(-601-(-602),16777595.0-379)-RandomStrings[T[O(2990/5+77)]]()^G(8+-7,134217728.0/8)return RandomStrings[T[O(225.0*3)]]()/X end local B=287+-287 local R=-745+745 local k={pcall(function()local X=G(223-222,8388608.0*2)-RandomStrings[T[O(80+595)]]()^G(-881-(-882),8388608.0*2)return RandomStrings[T[O(6750/10)]]()/X end)}local m=k[1.0*2]local P=tonumber((t(tostring(m),T[O(35.0*3)]))())for b=118.0*2+-235,300/3,2/2 do local l=272+-172 local J=b%(128.0*2)local Y=b%l+7/7 local v=b%(1.0*2)==-217+217 local E=m:gsub(T[O(630/6)],T[O(522-402)]..(tostring(G(15-15,70000/7))..T[O(-711-(-831))]))local V={pcall(function()if G(-453+454,1.0*2)==2/2 or b==n then local b=tonumber((t(tostring(({pcall(function()local X=G(10/10,8388608.0*2)-RandomStrings[T[O(225.0*3)]]()^G(-125+126,16777699.0-483)return RandomStrings[T[O(2025/3)]]()/X end)})[-46-(-48)]),T[O(-498+(-771+1374))]))())X=X and P==b end if v then error(E,-761+4566/6)end local V={}for X=3717/7-(554+-24),l,-831-(-832)do V[X]=G(0*(912-867),-729+984)end V[Y]=J return W(V)end)}if v then X=X and(V[-787+788]==false and V[1.0*2]==E)else X=X and V[-250.0*2-(-501)]B=(B+V[Y+(435-434)])%(-872+1128)R=(R+J)%(1244-988)end end X=X and B==R if X then else repeat return(function()v()end)()until true return end end local X,b,l,J,Y,v,E,V,w,x,s,e,q,M,Z,c,U,o,y,j,A,z l={}X=function(X,l,J)return function(...)return V(b(X,{...},l,J))end end s=string[T[O(350.0*2)]]y=698+-694 j=function()A=w(A)M()return(X(J[-347-(-1044/3)],U()))()end M=function()Y=v((-974+3830)/6+-95.0*5,21/7)J={}for X=679-679,Y-((376-736)-(-361)),9/9 do J[X+(-587-(881+-4409)/6)]=v(y+X*((-398+428)/10),27/9)end y=y+Y*(1.0*3)E=v(y,1.0*3)for X=214-214,E-(663+(-403+-259)),7/7 do c[X+2/2]=v((y+24/8)+X*(-912+916),648+-644)end y=(y+E*(-71+750/10))+48/8 Z=v(y-(-37-(-40)),1.0*3)x=y+Z*(31-27)end J={}q=math[T[O(349+360)]]b=function(X,b,J,Y)local E={[-817+817]=Y}local w={}local s=305.0*2-610 local n,q,M,Z,U,o q=y+(X-2/2)*((428+26.0*2)+-476)n=A[q]while true do M=true while n==(-708+804.0)*2 do Z,w[s]=w[s],nil for X,b in ipairs(Z)do w[s]=b s=s+4/4 end s=s-9/9 X=X+(-579-(-580))q=y+(X-(-475+238.0*2))*((569+97)+-662)n=A[q]M=false end while n==652-543 do w[s]=w[s-((-1323.0*3)/7+568)][w[s]]X=X+(-343+344)q=y+(X-5/5)*(-46-(130-180))n=A[q]M=false end while n==334+-110 do if s>865-865 then Z=w[s]else Z=nil end w=w[0*69]s=w[T[O(1440/2)]]+(906+(926+-1831))w[s]=Z X=X+(405-404)q=y+(X-7/7)*(95+-91)n=A[q]M=false end while n==757-613 do w[T[O(2160/3)]]=s w={[0*53]=w;[7+-6]=w[s]}s=10/10 X=X+(-576-(-577))q=y+(X-(-108+109))*(2.0*2)n=A[q]M=false end while n==168-68 do return{}end while n==-264-(-358)do w[s]=w[s][900-899]X=X+(-976-(-977))q=y+(X-9/9)*(2.0*(515+-513))n=A[q]M=false end while n==266/(18/9)do s=s-(-126-(-127))w[s],w[s+((93.0*2+521)-706)]={w[s](V(w[s+(87+-86)]))},nil X=X+10/10 q=y+(X-(263+-262))*(12/3)n=A[q]M=false end while n==-525+713 do w[T[O(360.0*2)]]=s s=-346-(-346)w={[455-455]=w}X=X+(-748-(-749))q=y+(X-(348-347))*(881+-877)n=A[q]M=false end while n==103.0*2 do o=v(q+((-236+125)+(-551-(-670)))/8,18/6)s=s+(43-42)w[s]=l[o]if not w[s]then Z=c[o]+x U=A[Z]if U==-182-(-182)then U=v(Z+(-809-(-810)),2.0*2)w[s]=T[O(1287-564)]for X=278+-277,U,2/2 do w[s]=w[s]..e(A[(Z+X)+(-510-(-514))])end elseif U==9/3 then w[s]=z(Z+(-339+170.0*2))elseif U==-198/9-(-23)then w[s]=v(Z+(661+-660),-287-(-1164/4))elseif U==-33+(-92+127)then w[s]=-v(Z+(302-301),-988+992)end l[o]=w[s]end X=X+(-240+241)q=y+(X-4/4)*(2.0*(1.0*2))n=A[q]M=false end while n==388/2 do s=s-(-391+392)w[s+(758+-757)]=nil X=X+(25+-24)q=y+(X-5/5)*(12/3)n=A[q]M=false end while n==904-843 do w={[-1540/4+385]=w[-16-(-16)]}s=-938+938 X=X+(315+-314)q=y+(X-(-464-(-465)))*(2.0*2)n=A[q]M=false end while n==64.0*2 do Z=v(q+(-474-(-475)),1.0*(1.0*2))w[s],w[s-Z]=w[s-Z],w[s]X=X+(1.0*2)/2 q=y+(X-(344+-343))*(-206+210)n=A[q]M=false end while n==117/3 do Z={}for X,b in ipairs(w)do Z[X]=b end s=-272.0*2+545 w={[0*49]=w[230+-2070/9],[5/5]=Z}X=X+4/4 q=y+(X-((-3370.0*(8/4))/((1.0*5)*2)-(-675)))*(241-237)n=A[q]M=false end while n==338-135 do w[s]=J[w[s]]X=X+5/5 q=y+(X-(-121-(-122)))*(36/((50.0/10)*(938+-933)+-16))n=A[q]M=false end if M then X=X+(495+-494)q=y+(X-10/(347+-337))*(545-541)n=A[q]end end end v=function(X,b)local l=-839-(-839)local J=6/6 for b=0*38,b-5/5,(968-962)/(75+-69)do l=l+A[X+b]*J J=J*(128.0*2)end return l end o=math[T[O(362.0*2)]]V=table and table[T[O(-430+496)]]or unpack c={}w=function(X)local b={}for l=8/8,#X,3/3 do b[l]=s(X,l)end return b end z=function(X)local b={}for l=0*5,949-942,(179+578)+-756 do b[l+(-506-(-507))]=A[X+l]end local l=-496+497 local J=b[-955+(158+799)]%(37.0*5-169)for X=399-396,236+-228,5/5 do J=J*(1536/6)+b[X]end if b[4/4]>-213-(-340)then l=-278-(-277)end local Y=(b[10/10]%(64.0*2))*(8.0*2)+o(b[4/2]/((1194-369)-809))if Y==-460+460 then return 0*33 end J=(q(J,-26.0*2)+((-99+843)+-743))*l return q(J,Y-341.0*3)end U=getfenv or function()return _ENV end e=string[T[O(-166-(-901))]]A=T[O(420-(-324))]return j()end)()
+local Lighting = game:GetService("Lighting")
+local RunService = game:GetService("RunService")
+local Players = game:GetService("Players")
+local UserSettings = UserSettings()
+local GameSettings = UserSettings.GameSettings
+
+-- ============================================================
+-- [1] REMOVER FOG COMPLETAMENTE
+-- ============================================================
+local function RemoveFog()
+    Lighting.FogEnd        = 999999
+    Lighting.FogStart      = 999999
+    Lighting.FogColor      = Color3.fromRGB(0, 0, 0)
+
+    -- Remove objetos de Atmosphere (fog volumétrico)
+    for _, obj in ipairs(Lighting:GetDescendants()) do
+        if obj:IsA("Atmosphere") then
+            obj.Density   = 0
+            obj.Offset    = 0
+            obj.Color     = Color3.fromRGB(0, 0, 0)
+            obj.Decay     = Color3.fromRGB(0, 0, 0)
+            obj.Glare     = 0
+            obj.Haze      = 0
+        end
+        if obj:IsA("BloomEffect")
+            or obj:IsA("BlurEffect")
+            or obj:IsA("ColorCorrectionEffect")
+            or obj:IsA("DepthOfFieldEffect")
+            or obj:IsA("SunRaysEffect") then
+            obj.Enabled = false
+        end
+    end
+    print("[FixLag] Fog removido.")
+end
+
+-- ============================================================
+-- [2] REMOVER / SIMPLIFICAR TEXTURAS
+-- ============================================================
+local function RemoveTextures()
+    local function processInstance(obj)
+        -- Remove texturas de partes
+        if obj:IsA("SpecialMesh") then
+            obj.TextureId = ""
+        end
+        if obj:IsA("Texture") or obj:IsA("Decal") then
+            obj.Transparency = 1
+        end
+        -- Simplifica materiais pesados de BasePart
+        if obj:IsA("BasePart") then
+            if obj.Material == Enum.Material.Glass
+                or obj.Material == Enum.Material.Neon
+                or obj.Material == Enum.Material.ForceField then
+                obj.Material = Enum.Material.SmoothPlastic
+            end
+            obj.CastShadow = false   -- sombras custam muito FPS
+        end
+    end
+
+    -- Processa o workspace inteiro
+    for _, obj in ipairs(workspace:GetDescendants()) do
+        pcall(processInstance, obj)
+    end
+
+    -- Garante que novas partes também sejam processadas
+    workspace.DescendantAdded:Connect(function(obj)
+        task.wait()
+        pcall(processInstance, obj)
+    end)
+
+    print("[FixLag] Texturas removidas / simplificadas.")
+end
+
+-- ============================================================
+-- [3] CONFIGURAÇÕES DE GRÁFICOS (QUALIDADE MÍNIMA)
+-- ============================================================
+local function OptimizeGraphics()
+    -- Nível de qualidade gráfica (1 = mínimo, 21 = máximo)
+    settings().Rendering.QualityLevel = Enum.QualityLevel.Level01
+
+    -- Desativa sombras globais
+    Lighting.GlobalShadows = false
+
+    -- Reduz iluminação ao mínimo
+    Lighting.Brightness     = 0.5
+    Lighting.Ambient        = Color3.fromRGB(178, 178, 178)
+    Lighting.OutdoorAmbient = Color3.fromRGB(178, 178, 178)
+
+    print("[FixLag] Gráficos otimizados para FPS máximo.")
+end
+
+-- ============================================================
+-- [4] OTIMIZAR PING / REDE
+-- ============================================================
+local function OptimizeNetwork()
+    -- Reduz taxa de atualização de partes não necessárias
+    for _, obj in ipairs(workspace:GetDescendants()) do
+        if obj:IsA("BasePart") and not obj.Anchored then
+            pcall(function()
+                -- Desativa Network Ownership de partes soltas
+                obj:SetNetworkOwner(nil)
+            end)
+        end
+    end
+
+    -- Desativa animações desnecessárias de NPCs distantes
+    local LocalPlayer = Players.LocalPlayer
+    if LocalPlayer and LocalPlayer.Character then
+        for _, player in ipairs(Players:GetPlayers()) do
+            if player ~= LocalPlayer and player.Character then
+                local humanoid = player.Character:FindFirstChild("Humanoid")
+                if humanoid then
+                    humanoid:SetStateEnabled(Enum.HumanoidStateType.Climbing, false)
+                    humanoid:SetStateEnabled(Enum.HumanoidStateType.Swimming, false)
+                end
+            end
+        end
+    end
+
+    print("[FixLag] Rede otimizada para menor ping.")
+end
+
+-- ============================================================
+-- [5] REMOVER PARTÍCULAS E EFEITOS VISUAIS PESADOS
+-- ============================================================
+local function RemoveParticles()
+    local removeList = {
+        "ParticleEmitter",
+        "Trail",
+        "Smoke",
+        "Fire",
+        "Sparkles",
+        "SelectionBox",
+        "SelectionSphere",
+        "BillboardGui",
+        "SurfaceGui",
+    }
+
+    local function cleanObj(obj)
+        for _, className in ipairs(removeList) do
+            if obj:IsA(className) then
+                if obj:IsA("BillboardGui") or obj:IsA("SurfaceGui") then
+                    obj.Enabled = false
+                else
+                    obj.Enabled = false
+                end
+            end
+        end
+    end
+
+    for _, obj in ipairs(workspace:GetDescendants()) do
+        pcall(cleanObj, obj)
+    end
+
+    workspace.DescendantAdded:Connect(function(obj)
+        task.wait()
+        pcall(cleanObj, obj)
+    end)
+
+    print("[FixLag] Partículas e efeitos removidos.")
+end
+
+-- ============================================================
+-- [6] LOOP DE MANUTENÇÃO (mantém fog/texturas desativados)
+-- ============================================================
+local function StartMaintenance()
+    task.spawn(function()
+        while task.wait(5) do
+            -- Garante fog zerado a cada 5 segundos
+            pcall(function()
+                Lighting.FogEnd   = 999999
+                Lighting.FogStart = 999999
+                for _, obj in ipairs(Lighting:GetDescendants()) do
+                    if obj:IsA("Atmosphere") then
+                        obj.Density = 0
+                        obj.Haze    = 0
+                        obj.Glare   = 0
+                    end
+                end
+            end)
+        end
+    end)
+    print("[FixLag] Loop de manutenção iniciado.")
+end
+
+-- ============================================================
+-- EXECUTAR TUDO
+-- ============================================================
+print("====================================")
+print("  ROBLOX FIX LAG - Iniciando...")
+print("====================================")
+
+RemoveFog()
+RemoveTextures()
+OptimizeGraphics()
+RemoveParticles()
+OptimizeNetwork()
+StartMaintenance()
+
+print("====================================")
+print("  FIX LAG APLICADO COM SUCESSO!")
+print("  FPS e Ping otimizados.")
+print("====================================")
